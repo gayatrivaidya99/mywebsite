@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images.jpg);
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+    background-color: crimson;
+}
+ul{
+    list-style-type: none;
+    float:right;
+    margin-top: 20px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 10px 20px;
+    border: 1px;
+    font-size: large;
+    font-style:Times New Roman;
+    border: 1px solid #ffffff;
+    transition: 0.6s ease;
+    
+}
+ul li a:hover{
+    background-color:whitesmoke;
+    color:black;
+}
+.main{
+    max-width: 1500px;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    color: white;
+}
+.title h1{
+    text-align: center;
+    font-size: 50px;
+}
+
